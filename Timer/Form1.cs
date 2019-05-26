@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+using Microsoft.VisualBasic;
+
 namespace Timer
 {
     public partial class Form1 : Form
@@ -14,6 +16,11 @@ namespace Timer
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Timer1_Tick(object sender, EventArgs e)
+        {
+
         }
     }
 }
